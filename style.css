@@ -31,6 +31,9 @@ body {
 @media screen and (min-width:1200px) {
     body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    header {
+        grid-column: 1/-1;
     } 
     
 }
