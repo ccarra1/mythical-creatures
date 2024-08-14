@@ -10,6 +10,9 @@ body {
     display: grid;
     grid-template-columns: 1fr;
 }
+header, footer {
+    grid-column: 1/-1;
+} 
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width:500px) {
@@ -32,8 +35,8 @@ body {
     body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    header {
-        grid-column: 1/-1;
-    } 
+    main {
+        grid-column:2/4;
+    }
     
 }
